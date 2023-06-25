@@ -6,7 +6,7 @@ import laurels from '../assets/laurels.png'
 
 const Laurels = () => {
   return (
-    <div className='w-[100%] p-10 mt-8 flex justify-between items-center'>
+    <div className='w-[100%] p-10 mt-8 lg:flex justify-between items-center'>
       <div className='w-[100%]'>
         <h4 className='text-xl font-[italic] font-semibold'>Awards & Recognition</h4>
         <img className='mb-4' src="https://github.com/adrianhajdin/project_modern_ui_ux_restaurant/blob/main/src/assets/spoon.png?raw=true" alt=""></img>

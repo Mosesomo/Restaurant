@@ -1,4 +1,5 @@
 import { BsDashLg } from 'react-icons/bs'
+import menu from '../assets/menu.png'
 
 const Menu = () => {
   return (
@@ -8,7 +9,7 @@ const Menu = () => {
           <img src="https://github.com/adrianhajdin/project_modern_ui_ux_restaurant/blob/main/src/assets/spoon.png?raw=true" alt="" />
         </div>
         <h1 className='text-center text-5xl font-[italic] text-yellow-400 mb-6'>Todays Special</h1>
-        <div className='w-[100%] flex justify-between items-center'>
+        <div className='w-[100%] lg:flex justify-between items-center'>
           <div className='w-[100%]'>
             <h2 className='text-center text-4xl font-[italic] mb-4'>Wine & Beer</h2>
             <div className='w-[100%] flex justify-between items-center'>
@@ -67,7 +68,7 @@ const Menu = () => {
             </div>
           </div>
           <div className='w-[100%]'>
-          <img className='w-[100%] object-cover' src="https://github.com/adrianhajdin/project_modern_ui_ux_restaurant/blob/main/src/assets/menu.png?raw=true" alt="" />
+          <img className='w-[100%] object-cover' src={menu} alt="" />
         </div>
         <div className='w-[100%] px-3'>
             <h2 className='text-center text-4xl font-[italic] mb-4'>Cocktails</h2>

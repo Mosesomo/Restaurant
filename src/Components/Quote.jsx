@@ -5,7 +5,7 @@ import sign from '../assets/sign.png'
 const Quote = () => {
   return (
     <div className='w-[100%] p-8 mt-8'>
-      <div className='w-[100%] flex justify-between'>
+      <div className='w-[100%] lg:flex justify-between'>
         <div className='w-[100%] p-5'>
           <img className='w-[100%] object-cover' src={chef} alt=""></img>
         </div>
